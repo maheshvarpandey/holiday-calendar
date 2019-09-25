@@ -52,9 +52,7 @@ async Upperpart(){
     console.log(y);
     console.log(m);
     console.log(d);
-//  const re= await  fetch(`https://calendarific.com/api/v2/holidays?country=IN&year=`+y+`&api_key=4c1fe818cff0ee56bdf2b850dc9a0e5004a4c8b5&day`)
-// const js=await re.json();
-// try{
+//API calling 
  const js=await  fetch(`https://calendarific.com/api/v2/holidays?country=IN&year=`+y+`&api_key=4c1fe818cff0ee56bdf2b850dc9a0e5004a4c8b5&day`)
 .then((response)=>{console.log(response);
                 if(response.ok)
@@ -100,6 +98,7 @@ if(js.response.holidays[i].date.iso.length<11){
     equal1.push(js.response.holidays[i].date.iso);
     continue;
   }
+
 if(js.response.holidays[i].date.iso<iso){
 
   if(pa===js.response.holidays[i].date.iso){
@@ -213,7 +212,7 @@ onFromSubmitted1=(e)=>{
 </div>
 <br>
      </br>
-     <center>                    <div class="dynamic">
+     <center>       <div class="dynamic">
                      {this.state.term && <Display up={this.state.Upcomming}/> }
                      {this.state.term1 && <PastHoliday pre={this.state.previous}/> }
                      </div>

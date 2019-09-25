@@ -1,0 +1,27 @@
+.Apppp{
+    text-align: center;
+  
+  }
+  .Ap{
+    text-align: center;
+  
+  }
+  #button-style{
+    margin: 0;
+    height: 35px;
+    width: 30%;
+    text-align: center;
+  }
+  .btn{
+    text-align: center;
+   
+    
+  }
+  
+  .dynamic{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    height: auto;
+    width: 800px;
+   box-shadow: 20px;
+  }

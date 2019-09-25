@@ -1,0 +1,29 @@
+.btn-btn-holidays1 {
+    height: 100px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: rgb(19, 17, 17);
+    font-weight: bolder
+} 
+
+.btn-btn-holidays {
+    height: 70px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: rgb(19, 17, 17);
+    font-weight: bolder
+} 
+
+.main-content {
+    align-content: center;
+    justify-content: center;
+    place-content: center;
+    text-align: center;
+}
+
